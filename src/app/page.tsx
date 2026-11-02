@@ -16,7 +16,7 @@ export default function Page() {
               onContextMenu={(e) => e.preventDefault()}
             >
               <YouTubeVideo
-                src="https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+                src="https://youtu.be/N-jUwcsIU7U?si=HjUx5m0YthpfVaa0"
               />
             </VideoSkin>
           </VideoPlayer>
