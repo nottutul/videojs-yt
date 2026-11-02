@@ -7,16 +7,16 @@ import { VideoSkin } from '@/components/videojs/video/skin';
 
 export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center p-4">
-      <div className="w-full max-w-4xl">
+    <div className="flex flex-1 items-center justify-center p-4">
+      <div className="w-full max-w-4xl"> 
         <Suspense fallback={<div className="aspect-video w-full rounded-xl bg-muted animate-pulse" />}>
           <VideoPlayer>
             <VideoSkin
-              className="aspect-video w-full [&_iframe]:pointer-events-none [&_iframe]:select-none"
+              className="aspect-video w-full [&_iframe]:pointer-events-none [&_iframe]:select-none" 
               onContextMenu={(e) => e.preventDefault()}
             >
               <YouTubeVideo
-                src="https://youtu.be/N-jUwcsIU7U?si=HjUx5m0YthpfVaa0"
+                src="https://www.youtube.com/watch?v=CncYIz9XRL0"
               />
             </VideoSkin>
           </VideoPlayer>
